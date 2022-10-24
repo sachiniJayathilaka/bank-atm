@@ -1,0 +1,21 @@
+#Running Server Port
+server:
+  port: 8000
+  servlet:
+    context-path: /bank_atm
+
+#Datasource Settings
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/hsbc_atm
+    username: postgres
+    password: root
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: secretkey123

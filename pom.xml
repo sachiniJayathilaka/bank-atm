@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>hsbc-atm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hsbc-atm</name>
-    <description>hsbc-atm</description>
+    <name>bank-atm</name>
+    <description>Bank ATM application</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -60,6 +60,16 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
