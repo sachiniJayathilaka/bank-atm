@@ -8,9 +8,9 @@
         <version>2.7.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>hsbc-atm</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.bank</groupId>
+    <artifactId>bank-atm</artifactId>
+    <version>0.0.1</version>
     <name>bank-atm</name>
     <description>Bank ATM application</description>
     <properties>

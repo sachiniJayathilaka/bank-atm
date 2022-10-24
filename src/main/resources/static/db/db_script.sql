@@ -1,5 +1,5 @@
 CREATE
-database hsbc_atm;
+database bank_atm;
 ------------------------
 INSERT INTO atm(id)
 VALUES (1);
